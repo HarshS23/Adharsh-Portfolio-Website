@@ -17,3 +17,16 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error(err));
 });
+
+
+function copyEmail() {
+    const email = "Harsh.shokka@gmail.com";
+
+    navigator.clipboard.writeText(email)
+        .then(() => {
+            alert("Email copied to clipboard");
+        })
+        .catch(err => {
+            console.error("Failed to copy:", err);
+        });
+}
