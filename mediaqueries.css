@@ -70,7 +70,7 @@
         margin-bottom: 2rem;
     }
     .about-containers, 
-    .contact-info-ipper-container, 
+    .contact-info-upper-container, 
     .btn-container{
         flex-wrap: wrap;
     }
@@ -80,7 +80,7 @@
     }
     .contact-info-container p, 
     .nav-links li a{
-        font-size: 1 rem; 
+        font-size: 1rem; 
     }
 
     .experience-sub-title{
