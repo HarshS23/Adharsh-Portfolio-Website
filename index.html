@@ -409,7 +409,7 @@ h1.hero-name em{
 <section id="projects">
   <div class="proj-header">
     <h2>Selected work</h2>
-    <span>2024 – 2025</span>
+    <span>2023 – 2025</span>
   </div>
   <div class="proj-list">
 
@@ -439,7 +439,7 @@ h1.hero-name em{
           <div class="proj-name">RISC-V → WASM Translator</div>
           <div class="proj-year">2025</div>
         </div>
-        <p class="proj-desc">Binary-level translation — not source <code class=""></code> Unfortuanatly I cannot show this code as this was a CMPUT 229 Lab, for any questions feel free to email me at any time. Takes RV32I machine instructions and emits WebAssembly bytecode. R-type, I-type, branches. Built a signed LEB128 encoder from scratch because you have to. Register translation table handles the architectural differences including the zero register. This project taught me more about how both ISAs actually work than anything else.</p>
+        <p class="proj-desc">Binary-level translation — not source <code class=""></code> Unfortuanatly I cannot show this code as this was a CMPUT 229 Lab, for any questions feel free to email me at any time. Takes RV32I machine instructions and emits WebAssembly bytecode. R-type, I-type, branches. Built a signed LEB128 encoder from scratch because you have to. Register translation table handles the architectural differences including the zero register. This project taught me more about how both ISAs actually work than anything else. (Course work)</p>
         <div class="proj-tags">
           <span class="proj-tag-pill">RISC-V (RV32I)</span>
           <span class="proj-tag-pill">WebAssembly</span>
@@ -474,7 +474,7 @@ h1.hero-name em{
       <div class="proj-main">
         <div class="proj-title-row">
           <div class="proj-name">FeOS MK1</div>
-          <div class="proj-year">2024</div>
+          <div class="proj-year">2026</div>
         </div>
         <p class="proj-desc">Currently building a bare metal x86_64 kernel in Rust. Boots on QEMU. VGA buffer driver, UART serial output, a full Interrupt Descriptor Table with breakpoint and exception handling. The entire thing runs without the standard library — no_std, no_main, none of the safety nets. I started this to understand what actually happens between power on and your terminal prompt.</p>
         <div class="proj-tags">
@@ -487,6 +487,30 @@ h1.hero-name em{
       </div>
       <div class="proj-arrow-btn">↗</div>
     </a>
+
+    <a class="proj-item reveal reveal-delay-4" href="https://github.com/HarshS23/Distributed-Process-Monitor" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+      <div class="proj-num">04</div>
+      <div class="proj-main">
+        <div class="proj-title-row">
+          <div class="proj-name">Distributed System Monitor</div>
+          <div class="proj-year">2026</div>
+        </div>
+        <p class="proj-desc"> Built a distributed monitoring system across two programs distpsnotify and remoteagent, coordinating real time data collection over TCP/IP sockets from multiple remote machines simultaneously. 
+          Designed and implemented a custom client server command protocol (EXECUTE/QUIT, START/STOP delimiters) for structured, ordered data exchange across persistent socket connections. 
+          Engineered dynamic memory management for an arbitrary number of remote agents using heap allocation, verified zero memory leaks across all code paths using Clang's leaks tool on macOS. (Course work)</p>
+        <div class="proj-tags">
+          <span class="proj-tag-pill">Rust</span>
+          <span class="proj-tag-pill">x86_64</span>
+          <span class="proj-tag-pill">no_std</span>
+          <span class="proj-tag-pill">QEMU</span>
+          <span class="proj-tag-pill">IDT / VGA / UART</span>
+        </div>
+      </div>
+      <div class="proj-arrow-btn">↗</div>
+    </a>
+
+
+
 
   </div>
 </section>
@@ -515,7 +539,7 @@ h1.hero-name em{
       <div class="skill-group reveal reveal-delay-2">
         <div class="skill-group-label">Coursework</div>
         <div class="skill-text">
-          Algorithms, Software Engineering, Computer Architecture, Operating Systems, Machine Learning, Databases. The OS and architecture courses hit different when you've already built the things they describe.
+          Algorithms, Software Engineering, Computer Architecture, Operating Systems, Machine Learning, Databases.
         </div>
       </div>
 
