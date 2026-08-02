@@ -408,8 +408,8 @@ h1.hero-name em{
 
 <section id="projects">
   <div class="proj-header">
-    <h2>Selected work</h2>
-    <span>2023 – 2025</span>
+    <h2>Personal Projects</h2>
+    <span>2023 – Current</span>
   </div>
   <div class="proj-list">
 
@@ -469,16 +469,16 @@ h1.hero-name em{
       <div class="proj-arrow-btn">↗</div>
     </a>
 
-    <a class="proj-item reveal reveal-delay-3" href="https://github.com/HarshS23/FeOS" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+    <a class="proj-item reveal reveal-delay-3" href="https://github.com/HarshS23/OS1" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
       <div class="proj-num">04</div>
       <div class="proj-main">
         <div class="proj-title-row">
-          <div class="proj-name">FeOS MK1</div>
-          <div class="proj-year">2026</div>
+          <div class="proj-name">OS1 </div>
+          <div class="proj-year"> May 2026</div>
         </div>
-        <p class="proj-desc">Currently building a bare metal x86_64 kernel in Rust. Boots on QEMU. VGA buffer driver, UART serial output, a full Interrupt Descriptor Table with breakpoint and exception handling. The entire thing runs without the standard library — no_std, no_main, none of the safety nets. I started this to understand what actually happens between power on and your terminal prompt.</p>
+        <p class="proj-desc">Currently building a bare metal x86_64 kernel in C. Boots on QEMU. VGA buffer driver, UART serial output, a full Interrupt Descriptor Table with breakpoint and exception handling. The entire thing runs without the standard library — no_std, no_main, none of the safety nets. I started this to understand what actually happens between power on your computer.</p>
         <div class="proj-tags">
-          <span class="proj-tag-pill">Rust</span>
+          <span class="proj-tag-pill">C</span>
           <span class="proj-tag-pill">x86_64</span>
           <span class="proj-tag-pill">no_std</span>
           <span class="proj-tag-pill">QEMU</span>
@@ -499,15 +499,39 @@ h1.hero-name em{
           Designed and implemented a custom client server command protocol (EXECUTE/QUIT, START/STOP delimiters) for structured, ordered data exchange across persistent socket connections. 
           Engineered dynamic memory management for an arbitrary number of remote agents using heap allocation, verified zero memory leaks across all code paths using Clang's leaks tool on macOS. (Course work)</p>
         <div class="proj-tags">
-          <span class="proj-tag-pill">Rust</span>
-          <span class="proj-tag-pill">x86_64</span>
-          <span class="proj-tag-pill">no_std</span>
-          <span class="proj-tag-pill">QEMU</span>
-          <span class="proj-tag-pill">IDT / VGA / UART</span>
+          <span class="proj-tag-pill">C++</span>
         </div>
       </div>
       <div class="proj-arrow-btn">↗</div>
     </a>
+
+    <a class="proj-item reveal reveal-delay-5" href="https://github.com/HarshS23/Consistant" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+    <div class="proj-num">05</div>
+    <div class="proj-main">
+      <div class="proj-title-row">
+        <div class="proj-name">Consistant</div>
+        <div class="proj-year">2026</div>
+      </div>
+      <p class="proj-desc"> Built a native iOS consistency tracker for setting personal goals and logging daily progress against them.
+          Architected the app with SwiftUI on the front end and a Supabase backend handling data persistence, authentication, and sync.
+          Currently preparing the app for release on the App Store.
+          Note: the implementation was entirely AI-generated as an experiment in the limits of AI-assisted development.
+          I designed the software architecture and system design.
+          I plan to keep developing this application as a way to practice my system design and software architecture.
+          Targeting an App Store release so others can use it as well.
+      </p>
+      <div class="proj-tags">
+        <span class="proj-tag-pill">Swift</span>
+        <span class="proj-tag-pill">SwiftUI</span>
+        <span class="proj-tag-pill">Supabase</span>
+        <span class="proj-tag-pill">AI used: Fable 5, Opus 4.8, Opus 5</span>
+        
+      </div>
+    </div>
+    <div class="proj-arrow-btn">↗</div>
+  </a>
+
+
 
 
 
